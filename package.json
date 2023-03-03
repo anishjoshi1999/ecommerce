@@ -1,16 +1,12 @@
 {
-  "name": "hamrocompany",
+  "name": "server",
   "version": "1.0.0",
   "description": "MERN shopping",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run index\" \"npm run client\"",
-    "data:import": "node seeder",
-    "data:destroy": "node seeder -d"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "HamroCompany",
   "license": "MIT",
